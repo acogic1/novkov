@@ -189,13 +189,13 @@ public class YoloV4Classifier implements Classifier {
     // config yolov4 tiny
     private static final int[] OUTPUT_WIDTH_TINY = new int[]{2535, 2535};
     private static final int[] OUTPUT_WIDTH_FULL = new int[]{10647, 10647};
-    /*private static final int[][] MASKS_TINY = new int[][]{{3, 4, 5}, {1, 2, 3}};
+    private static final int[][] MASKS_TINY = new int[][]{{3, 4, 5}, {1, 2, 3}};
     private static final int[] ANCHORS_TINY = new int[]{
-            23, 27, 37, 58, 81, 82, 81, 82, 135, 169, 344, 319};*/
+            23, 27, 37, 58, 81, 82, 81, 82, 135, 169, 344, 319};
 
-    private static final int[][] MASKS_TINY = new int[][]{{0,1,2}};
+    /*private static final int[][] MASKS_TINY = new int[][]{{0,1,2}};
     private static final int[] ANCHORS_TINY = new int[]{
-            10,14,  23,27,  37,58,  81,82,  135,169,  344,319};
+            10,14,  23,27,  37,58,  81,82,  135,169,  344,319};*/
 
     private static final float[] XYSCALE_TINY = new float[]{1.05f, 1.05f};
 
